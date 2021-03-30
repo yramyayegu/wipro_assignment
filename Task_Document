@@ -1,0 +1,21 @@
+1. Layout file is Created and imported to App.js.
+2. In Layout there is Header and Searchbox container to display SearchBox.
+3. SearchBox Component is impoted to Layout Component.
+4. SearchBox component  contain 
+	- Autocomplete dropdown 
+	- Input Method
+	- output USestate
+5. For Autocomplete I have used Material UI Autocomplete component to get Dropdown, Multi select, Limit Tags, Highlight search.
+6. Input Method contain getSuggestions method which is in seperate Utility Folder and API.js file.
+7. When i get suggestion from getSuggestions method as array i have converted them to object and set them in Output Usestate.
+8. While Setting in Output i have checked for Duplicate suggestion if suggestion already exist SetOutput will be skipped.
+9. I have use makeStyles for styling SearchBox
+10.I have used dependency for Autocomplete
+	-@material-ui/core
+	-@material-ui/lab
+	-autosuggest-highlight
+	
+	
+First i worked this in Local Machine and transfered all code to codesandbox
+	
+	https://codesandbox.io/s/misty-wildflower-340iq?file=/src/App.js

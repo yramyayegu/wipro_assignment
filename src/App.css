@@ -1,7 +1,11 @@
 .App {
-  text-align: center;
+  text-align: center;   
 }
 
+.MuiAppBar-colorPrimary {
+    color: #fff;
+    background-color: #465558 !important;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,8 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
